@@ -11,7 +11,7 @@ export default function App() {
         <Navbar />
         <div className="flex-1">
           <Routes>
-            <Route path="/homepage" element={<HomePage />} />
+            <Route path="/" element={<HomePage />} />
             <Route path="/currently-playing" element={<CurrentlyPlaying />} />
           </Routes>
         </div>
